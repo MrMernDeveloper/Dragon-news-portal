@@ -13,11 +13,11 @@ const LeftSideNav = () => {
     
     }, []);
     
-    console.log(categories)
+    // console.log(categories)
 
     return (
-        <div>
-            <h2>All Category{categories.length}</h2>
+        <div className='mt-2'>
+            <h5>All Category{categories.length}</h5>
             {
                 categories.map(category => <p key={category.id}>
 
